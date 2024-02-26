@@ -44,10 +44,7 @@ body{
     animation: slideRight 1s ease forwards;
     animation: textFlow 4s ease-in-out;
 }
-.logo-flow{
-     animation: textFlow 4s ease-in-out;
-    animation-iteration-count:infinite;
-}
+
 .navbar a{
     font-size: 1.7rem;
     color:var(--text-color);
@@ -283,17 +280,6 @@ section{
     }
 }
 
-@keyframes textFlow {
-    0%{
-        color:var(--text-color);
-    }
-    50%{
-        color:aqua;
-    }
-    100%{
-        color:var(--text-color);
-    }
-}
 @keyframes slideRight {
     0% {
         transform:translateX(-100px);
